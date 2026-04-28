@@ -1,7 +1,7 @@
 from fastapi import FastAPI, Query
 from .password_generator import generate_password
 
-app = FastAPI(title="Password Generator @")
+app = FastAPI(title="Password Generator")
 
 @app.get("/generate")
 def generate(length: int = Query(12, ge=4, le=128),
