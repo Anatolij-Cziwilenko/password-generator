@@ -19,12 +19,10 @@ def generate_password(length: int = 12,
     if not pools:
         raise ValueError("At least one character set must be enabled.")
 
-    # Gwarancja co najmniej jednego znaku z każdego wybranego zestawu
     password_chars = [secrets.choice(pool) for pool in pools]
     all_chars = "".join(pools)
     while len(password_chars) < length:
         password_chars.append(secrets.choice(all_chars))
     
-    # Bezpieczne mieszanie
     secrets.SystemRandom().shuffle(password_chars)
     return "".join(password_chars)[:length]
