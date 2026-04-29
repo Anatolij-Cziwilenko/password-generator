@@ -21,3 +21,4 @@ Aby pobrać i uruchomić:
 ```bash
 docker pull 111qqq222www333eee/password-generator:latest
 docker run -d -p 8000:8000 --name pwd-gen 111qqq222www333eee/password-generator
+Link do obrazu: https://hub.docker.com/r/111qqq222www333eee/password-generator
