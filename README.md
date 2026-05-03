@@ -2,6 +2,8 @@
 ![CI Status](https://github.com/111qqq222www333eee/password-generator/actions/workflows/ci.yml/badge.svg)
 
 Prosty i bezpieczny serwis API do generowania silnych haseł.
+test12345
+
 
 ## 🚀 Uruchomienie lokalne
 1. `python -m venv .venv`
