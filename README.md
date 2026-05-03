@@ -3,6 +3,7 @@
 
 Prosty i bezpieczny serwis API do generowania silnych haseł.
 test12345
+Commit - test
 
 
 ## 🚀 Uruchomienie lokalne
